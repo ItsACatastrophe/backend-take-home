@@ -6,7 +6,7 @@ In this document:
     - [Setup with Pipenv](#setup-with-pipenv)
     - [Setup with Another Virtual Environment](#setup-with-another-virtual-environment)
 - [Usage](#usage)
-- [Developer's Notes](#developer's-notes)
+- [Developer Notes](#developer-notes)
 
 # Setup
 
@@ -27,7 +27,7 @@ $ python -m pipenv install
 
 There is no differentiation made between developer and standard dependencies for this package so this is all you need to do.
 
-## Setup with Another Virutal Environment
+## Setup with Another Virtual Environment
 
 If you're choosing to use another virtual environment (or even install the packages globally) I'll assume you're better aquainted with the commands required to install packages. Just make sure you check the `/Pipfile` for package versions to ensure there's no mismatching.
 
@@ -48,7 +48,7 @@ $ python -m pipenv shell
 $ python -m unittest discover
 ```
 
-# Developer's Notes
+# Developer Notes
 This section isn't integral to using the project. You can skip to `/docs/endpoints.md` or `/docs/test_script.md` if you haven't already read those yet.
 
 There were a few design choices I thought to include justification/reasoning for here:
